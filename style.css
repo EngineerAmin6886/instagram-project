@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(241, 241, 241);
+}
+
+* {
+  font-family: tahoma;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.main{
+  margin-top: 70px;
+}
+
+.main-left,
+.main-right {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  position: relative;
+}
+
+.main-left{
+  width: 59.5%;
+  padding-top: 35px;
+}
+
+.main-left img:last-of-type{
+  position: absolute;
+  top: 59px;
+  left:222px;
+  border-radius: 27px;
+}
+
+.main-right{
+  width: 40%;
+}
+
+.register-form {
+  background-color: white;
+  border: 1px solid rgb(226, 226, 226);
+  padding: 20px;
+}
+
+.register-form form input {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  background-color: rgb(243, 243, 243);
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgb(199, 199, 199);
+  margin-bottom: 8px;
+  border-radius: 2 px;
+}
+
+.register-form form input:last-of-type {
+  background-color: rgb(110, 110, 255);
+  color: white;
+  border-radius: 5px;
+  margin-top: 18px;
+}
+
+.register-form p:first-of-type {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(82, 82, 82);
+}
+
+.register-form p a {
+  font-weight: bold;
+}
+
+.switch-page {
+  background-color: white;
+  border: 1px solid rgb(226, 226, 226);
+  padding: 18px;
+}
+
+.main-right div {
+  margin-bottom: 10px;
+}
+
+.links-app img {
+  width: 172px;
+}
+
+.footer div{
+  text-align: center;
+}
+
+.footer a{
+  margin-right: 10px;
+}
+
+.footer-links,.footer-secl-links{
+  margin-bottom: 10px;
+}
+
